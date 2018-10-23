@@ -93,6 +93,11 @@ etag@~1.8.1:
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
   integrity sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
 
+express-routes-versioning@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/express-routes-versioning/-/express-routes-versioning-1.0.1.tgz#e536807fdb30c4eb4976e56687ad061ebc6a0e42"
+  integrity sha1-5TaAf9swxOtJduVmh60GHrxqDkI=
+
 express@^4.16.4:
   version "4.16.4"
   resolved "https://registry.yarnpkg.com/express/-/express-4.16.4.tgz#fddef61926109e24c515ea97fd2f1bdbf62df12e"

@@ -4,6 +4,7 @@
   "description": "FDC3 App directory server",
   "main": "index.js",
   "scripts": {
+    "start": "node ./src/index.js 3030",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ChartIQ LLC",
