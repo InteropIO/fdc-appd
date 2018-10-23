@@ -1,0 +1,14 @@
+{
+  "name": "appd-server",
+  "version": "1.0.0",
+  "description": "FDC3 App directory server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ChartIQ LLC",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
