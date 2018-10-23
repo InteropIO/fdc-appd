@@ -22,6 +22,7 @@ npm start
 
 ### Get all apps
 Example: http:/localhost/v1/apps/search
+Status code: 200
 ```
 {
   "applications": [{...}],
@@ -31,6 +32,7 @@ Example: http:/localhost/v1/apps/search
 
 ### Get a single app
 Example: http:/localhost/v1/apps/xapp
+Status code: 200
 ```
 {
   "applications": [
@@ -45,6 +47,7 @@ Example: http:/localhost/v1/apps/xapp
 
 ### Create an app
 Example: POST http:/localhost/v1/apps/
+Status code: 500
 ```
 {
     message: 'Not implemented',
