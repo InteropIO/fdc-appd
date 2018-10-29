@@ -19,10 +19,10 @@ module.exports = (req, res) => {
                 app.description && lc(app.description).indexOf(text) > -1
         })
     }
-    // filter for tag
-    if (params.tag) {
+    // filter for tags and make sure tags property is there and its an array
+    if (params.tags && params.tags.pop) {
         applications = applications.filter((app) => {
-            return app.tags && app.tags.indexOf(params.tag) > -1
+            return app.tags.filter(tag => params.tags.includes(tag)).length
         })
     }
 
