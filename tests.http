@@ -1,0 +1,33 @@
+// To use this file to test web service, please install
+// the vscode extension "humao.rest-client" from 
+// https://marketplace.visualstudio.com/items?itemName=humao.rest-client
+// Use this file to test the RESTful end points
+// It has all the supported GET and POST methods.
+// To Send a request to any of them just click on
+// it then on your keyboard Ctrl+Alt+R
+// or right click on the line and click "Send Request"
+
+@host = http://localhost:3030
+@contentType = application/json
+
+###
+//Return all tags
+GET {{host}}/v1/tags
+
+###
+//Return a single app where its ID is xapp
+GET {{host}}/v1/apps/xapp
+
+###
+// Return all apps
+GET {{host}}/v1/apps/
+
+###
+// Search apps
+POST {{host}}/v1/apps/search
+Content-Type: {{contentType}}
+
+{
+    "text": "",
+    "tags": ["death", "Success"]
+}
