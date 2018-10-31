@@ -16,12 +16,14 @@ npm start
 
 ## API Resources
 
-- [GET /v1/apps/search](#get-all-apps)
+- [GET /v1/apps/](#get-all-apps)
 - [GET /v1/apps/{appId}](#get-a-single-app)
+- [GET /v1/tags](#get-all-tags)
 - [POST /v1/apps](#create-an-app)
+- [POST /v1/apps/search](#search-apps)
 
 ### Get all apps
-Example: http:/localhost/v1/apps/search
+GET http:/localhost/v1/apps/search
 
 Status code: 200
 ```
@@ -31,8 +33,43 @@ Status code: 200
 }
 ```
 
+### Get all tags
+GET http:/localhost/v1/tags
+
+Status code: 200
+```
+{
+  "tags": ['newrelease', 'pizza'],
+  "message": "successful"
+}
+```
+
+
 ### Get a single app
-Example: http:/localhost/v1/apps/xapp
+Example: GET http:/localhost/v1/apps/xapp
+
+Status code: 200
+```
+{
+  "applications": [
+    {
+      "appId": "xapp",
+      ...
+    }
+  ],
+  "message": "successful"
+}
+```
+
+### Search apps
+POST http:/localhost/v1/apps/search
+
+Content-Type: application/json
+
+Body: {
+    "text": "",
+    "tags": ["death", "Success"]
+}
 
 Status code: 200
 ```
