@@ -3,7 +3,7 @@
         "name": "Welcome Component",
         "type": "component",
         "description": "This is the component that welcomes you to finsemble. It also links you to the documentation. This documentation is really well written and is worth reading!!!!",
-        "appId": "xapp",
+        "appId": "welcome-comp",
         "manifest": "This is part of the FDC3 standard but we don't know what this value will be.",
         "manifestType": "This is part of the FDC3 standard but we don't know what this value will be.",
         "version": "3.0.1",
@@ -18,7 +18,8 @@
         ],
         "tags": [
             "newrelease",
-            "Pizza"
+            "Pizza",
+            "app"
         ],
         "contactEmail": "jim@chartiq.com",
         "supportEmail": "dnicolai@chartiq.com",
@@ -37,7 +38,7 @@
         "entitled": true,
         "type": "component",
         "description": "The notepad that you know and hate, but in FINSEMBLE! It comes with a mandatory little window that follows it around nicely or very slowly, depending on which branch you're working on.",
-        "appId": "This is part of the FDC3 standard but we don't know what this value will be.",
+        "appId": "note",
         "manifest": "This is part of the FDC3 standard but we don't know what this value will be.",
         "manifestType": "This is part of the FDC3 standard but we don't know what this value will be.",
         "version": "12",
@@ -63,7 +64,8 @@
         ],
         "tags": [
             "Notepad",
-            "productivity"
+            "productivity",
+            "app"
         ],
         "contactEmail": "jim@chartiq.com",
         "supportEmail": "dnicolai@chartiq.com",
@@ -81,7 +83,7 @@
         "name": "Process Monitor",
         "type": "component",
         "description": "WOW. What a treat. This component shows you how much memory your components are eating up. Like hungry hungry hippos, they will eat until their stomachs explode! Make sure to keep tabs on them with this component.",
-        "appId": "This is part of the FDC3 standard but we don't know what this value will be.",
+        "appId": "pm",
         "manifest": "This is part of the FDC3 standard but we don't know what this value will be.",
         "manifestType": "This is part of the FDC3 standard but we don't know what this value will be.",
         "title": "Process Monitor",
@@ -111,7 +113,8 @@
         "tags": [
             "Success",
             "Memory",
-            "Sad"
+            "Sad",
+            "app"
         ],
         "contactEmail": "jim@chartiq.com",
         "supportEmail": "dnicolai@chartiq.com",
@@ -146,7 +149,7 @@
             }
         ],
         "description": "If I could figure out how to spec out a stacked window, this would be the group of components that most quickly hoses any new feature in finsemble. But I can't, so this will have to do.",
-        "appId": "This is part of the FDC3 standard but we don't know what this value will be.",
+        "appId": "death",
         "manifest": "This is part of the FDC3 standard but we don't know what this value will be.",
         "manifestType": "This is part of the FDC3 standard but we don't know what this value will be.",
         "version": "6.0.0 (BETA)",
@@ -177,7 +180,8 @@
         ],
         "tags": [
             "death",
-            "Pizza"
+            "Pizza",
+            "app"
         ],
         "contactEmail": "jim@chartiq.com",
         "supportEmail": "dnicolai@chartiq.com",
@@ -190,5 +194,53 @@
             }
         ],
         "friendlyName": "Dashboard of death"
+    },
+    {
+        "name": "NewMadeUpApp",
+        "type": "component",
+        "description": "An app that seemingly came out of nowhere, because it did! This is a completely made up thing just like the other apps, except this one is made up better!",
+        "appId": "nmua",
+        "manifest": "This is part of the FDC3 standard but we don't know what this value will be.",
+        "manifestType": "This is part of the FDC3 standard but we don't know what this value will be.",
+        "title": "Made Up App",
+        "tooltip": "Just the (tool)tip",
+        "images": [
+            {
+                "id": 411,
+                "url": "https://spiritcatholicradio.com/wp-content/uploads/2018/08/New-Image.png",
+                "tooltip": "new1"
+            },
+            {
+                "id": 412,
+                "url": "http://us.alhambrait.com/wp-content/uploads/2011/06/New.png",
+                "tooltip": "tag"
+            },
+            {
+                "id": 413,
+                "url": "https://www.veritasprep.com/blog/wp-content/uploads/2014/03/New-SAT-150x150.png",
+                "tooltip": "sticker"
+            },
+            {
+                "id": 414,
+                "url": "http://aaalabelinc.net/shop/images/new_md.gif",
+                "tooltip": "excite"
+            }
+        ],
+        "tags": [
+            "newrelease",
+            "app",
+            "madeup"
+        ],
+        "contactEmail": "joseph@chartiq.com",
+        "supportEmail": "dnicolai@chartiq.com",
+        "publisher": "MadeUpInc.",
+        "icons": [
+            {
+                "id": 415,
+                "url": "http://laoblogger.com/images/whats-new-look-clipart-1.jpg",
+                "type": "new_icon"
+            }
+        ],
+        "friendlyName": "NewMadeUpApp"
     }
 ]
