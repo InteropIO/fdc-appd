@@ -125,22 +125,22 @@
             {
                 "id": 411,
                 "url": "https://i.imgur.com/y4drmLb.png",
-                "tooltip": "new1"
+                "tooltip": "Sample1"
             },
             {
                 "id": 412,
                 "url": "https://i.imgur.com/ktAl1h4.png",
-                "tooltip": "tag"
+                "tooltip": "Sample2"
             },
             {
                 "id": 413,
                 "url": "https://i.imgur.com/DEzmEJg.png",
-                "tooltip": "sticker"
+                "tooltip": "Sample3"
             },
             {
                 "id": 414,
                 "url": "https://i.imgur.com/KTwg8NS.png",
-                "tooltip": "excite"
+                "tooltip": "Sample4"
             }
         ],
         "tags": [
