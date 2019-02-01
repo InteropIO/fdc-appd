@@ -2,6 +2,7 @@
     {
         "name": "Welcome Component",
         "type": "component",
+        "entitled": true,
         "description": "This is the component that welcomes you to Finsemble. It also links you to the documentation. We encourage all users to read our documentation.",
         "appId": "welcome-comp",
         "manifest": "This is part of the FDC3 standard but we don't know what this value will be.",
@@ -36,8 +37,9 @@
     },
     {
         "name": "Notepad",
-        "entitled": true,
         "type": "component",
+        "entitled": false,
+        "windowType": "NativeWindow",
         "description": "The same old Notepad you've always known, only integrated into Finsemble.",
         "appId": "note",
         "manifest": "This is part of the FDC3 standard but we don't know what this value will be.",
@@ -79,6 +81,7 @@
     {
         "name": "Process Monitor",
         "type": "component",
+        "entitled": true,
         "description": "This component is used as a diagnostic tool akin to a Task Manager. Use it to assess the memory load of Finsemble or terminate processes.",
         "appId": "pm",
         "manifest": "This is part of the FDC3 standard but we don't know what this value will be.",
@@ -118,6 +121,7 @@
     {
         "name": "Sample Component",
         "type": "component",
+        "entitled": true,
         "description": "This is an example app with no particular purpose.",
         "appId": "nmua",
         "manifest": "This is part of the FDC3 standard but we don't know what this value will be.",
