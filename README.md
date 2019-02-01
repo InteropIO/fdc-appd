@@ -2,9 +2,11 @@
 
 A very basic example of a FDC3 application directory web service. It is implemented as a tiny express web server that listens on defined port and exposes three different restful end points. There is currently no database but a single json file (data.json) to retrieve applications data from.
 
+
+**Locally it runs on port 3030**
 ### Install the server
 ```
-git clone git@github.com:ChartIQ/fdc-appd.git 
+git clone git@github.com:ChartIQ/fdc-appd.git
 cd fdc-appd
 npm install
 ```
