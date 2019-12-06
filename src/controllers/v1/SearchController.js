@@ -3,7 +3,7 @@
  * @param {string} text The string to call .toLowerCase() on
  */
 const lc = (text = '') => {
-    return text.toString()
+    return text.toString().toLowerCase().trim();
 }
 
 module.exports = (req, res) => {
