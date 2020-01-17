@@ -7,7 +7,7 @@ const lc = (text = '') => {
 }
 
 module.exports = (req, res) => {
-    const params = req.body
+    const params = req.body;
     let applications = require(__basedir + '/data.json')
     // Lets keep it readable
     // filter for text first
@@ -19,13 +19,13 @@ module.exports = (req, res) => {
                 app.description && lc(app.description).indexOf(text) > -1
         })
     }
-    // filter for tags and make sure tags property is there and its an array
-    if (params.tags && params.tags.pop) {
+    // filter for tags and make sure tags property is there and its an array, and that it's not empty
+    if (params.tags && params.tags.pop && params.tags.length !== 0) {
         applications = applications.filter((app) => {
             return app.tags.filter(tag => params.tags.includes(tag)).length
         })
     }
-
+    
     res.status(200).json({
         applications,
         message: 'successful'
