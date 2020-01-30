@@ -26,10 +26,6 @@ app.get('/v1/apps/:appId', require('./controllers/v1/AppController'))
  * Retrieve unique tags list
  */
 app.get('/v1/tags', require('./controllers/v1/TagsController'))
-/**
- * Create a new application definition
- */
-app.post('/v1/apps', require('./controllers/v1/CreateController'))
 /*
 * Search applications
 */
