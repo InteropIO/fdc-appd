@@ -18,11 +18,10 @@ npm start
 
 ## API Resources
 
-- [GET /v1/apps/](#get-all-apps)
-- [GET /v1/apps/{appId}](#get-a-single-app)
-- [GET /v1/tags](#get-all-tags)
-- [POST /v1/apps](#create-an-app)
-- [POST /v1/apps/search](#search-apps)
+- [GET /v1/apps/](#get-all-apps) - Fetches all apps in the catalog
+- [GET /v1/apps/{appId}](#get-a-single-app) - Fetches information for a single app, given an appId
+- [GET /v1/tags](#get-all-tags) - Returns an array of all tags
+- [POST /v1/apps/search](#search-apps) - Searches the list of apps, given a set of parameters
 
 ### Get all apps
 GET http:/localhost/v1/apps/search
@@ -83,16 +82,5 @@ Status code: 200
     }
   ],
   "message": "successful"
-}
-```
-
-### Create an app
-Example: POST http:/localhost/v1/apps/
-
-Status code: 500
-```
-{
-    message: 'Not implemented',
-    code: 0
 }
 ```
