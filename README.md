@@ -4,24 +4,20 @@ A very basic example of a FDC3 application directory web service. It is implemen
 
 
 **Locally it runs on port 3030**
-### Install the server
+### Install and run the server
 ```
 git clone git@github.com:ChartIQ/fdc-appd.git
 cd fdc-appd
 npm install
-```
-
-### Run it
-```
 npm start
 ```
 
 ## API Resources
 
-- [GET /v1/apps/](#get-all-apps) - Fetches all apps in the catalog
-- [GET /v1/apps/{appId}](#get-a-single-app) - Fetches information for a single app, given an appId
-- [GET /v1/tags](#get-all-tags) - Returns an array of all tags
-- [POST /v1/apps/search](#search-apps) - Searches the list of apps, given a set of parameters
+- [GET /v1/apps/](#get-all-apps) - This call fetches all apps in the catalog.
+- [GET /v1/apps/{appId}](#get-a-single-app) - This call fetches information for a single application specified by an `appId`.
+- [GET /v1/tags](#get-all-tags) - Returns an array of all t`ags`.
+- [POST /v1/apps/search](#search-apps) - Searches the list of application given a set of parameters.
 
 ### Get all apps
 GET http:/localhost/v1/apps/search
