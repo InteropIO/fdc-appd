@@ -12,7 +12,6 @@
         "tooltip": "Welcome component",
         "images": [
             {
-                "id": "4",
                 "url": "https://i.imgur.com/7T4Zeqi.png",
                 "tooltip": "Welcome Component"
             }
@@ -27,7 +26,6 @@
         "publisher": "ChartIQ",
         "icons": [
             {
-                "id": "2321",
                 "url": "https://i.imgur.com/DCljkMy.png",
                 "type": "primary"
             }
@@ -50,12 +48,10 @@
         "tooltip": "Notepad",
         "images": [
             {
-                "id": 1,
                 "url": "https://i.imgur.com/Yzi0iU4.png",
                 "tooltip": "Notepad"
             },
             {
-                "id": "2",
                 "url": "https://i.imgur.com/qmHFOZp.png",
                 "tooltip": "Notepad"
             }
@@ -71,7 +67,6 @@
         "publisher": "ChartIQ",
         "icons": [
             {
-                "id": 3811341,
                 "url": "https://i.imgur.com/REWQ5k6.png",
                 "type": "primary"
             }
@@ -91,12 +86,10 @@
         "url": "$applicationRoot/components/processMonitor/processMonitor.html",
         "images": [
             {
-                "id": 3411,
                 "url": "https://i.imgur.com/KOOC7oI.png",
                 "tooltip": "Simple View"
             },
             {
-                "id": 3511,
                 "url": "https://i.imgur.com/3FDsHPX.png",
                 "tooltip": "Advanced View"
             }
@@ -111,7 +104,6 @@
         "publisher": "ChartIQ",
         "icons": [
             {
-                "id": 3811,
                 "url": "https://i.imgur.com/hOjmb0a.png",
                 "type": "primary"
             }
@@ -130,22 +122,18 @@
         "tooltip": "Tooltip",
         "images": [
             {
-                "id": 411,
                 "url": "https://i.imgur.com/y4drmLb.png",
                 "tooltip": "Sample1"
             },
             {
-                "id": 412,
                 "url": "https://i.imgur.com/ktAl1h4.png",
                 "tooltip": "Sample2"
             },
             {
-                "id": 413,
                 "url": "https://i.imgur.com/DEzmEJg.png",
                 "tooltip": "Sample3"
             },
             {
-                "id": 414,
                 "url": "https://i.imgur.com/KTwg8NS.png",
                 "tooltip": "Sample4"
             }
@@ -160,7 +148,6 @@
         "publisher": "MadeUpInc.",
         "icons": [
             {
-                "id": 415,
                 "url": "https://i.imgur.com/aTxEQep.png",
                 "type": "primary"
             }
