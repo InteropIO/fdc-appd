@@ -28,8 +28,7 @@
         "icons": [
             {
                 "id": "2321",
-                "url": "https://i.imgur.com/DCljkMy.png",
-                "type": "primary"
+                "url": "https://i.imgur.com/DCljkMy.png"
             }
         ],
         "friendlyName": "Welcome Component",
@@ -72,8 +71,7 @@
         "icons": [
             {
                 "id": 3811341,
-                "url": "https://i.imgur.com/REWQ5k6.png",
-                "type": "primary"
+                "url": "https://i.imgur.com/REWQ5k6.png"
             }
         ],
         "friendlyName": "Notepad"
@@ -112,8 +110,7 @@
         "icons": [
             {
                 "id": 3811,
-                "url": "https://i.imgur.com/hOjmb0a.png",
-                "type": "primary"
+                "url": "https://i.imgur.com/hOjmb0a.png"
             }
         ],
         "friendlyName": "Process Monitor"
@@ -161,8 +158,7 @@
         "icons": [
             {
                 "id": 415,
-                "url": "https://i.imgur.com/aTxEQep.png",
-                "type": "primary"
+                "url": "https://i.imgur.com/aTxEQep.png"
             }
         ],
         "friendlyName": "Sample"
