@@ -2,6 +2,10 @@
 
 A very basic example of a FDC3 application directory web service. It is implemented as a tiny express web server that listens on defined port and exposes three different restful end points. There is currently no database but a single json file (data.json) to retrieve applications data from.
 
+## Finsemble Component Manifest
+
+The format of the 'manifest' field is one that Finsemble should be able to parse. It should feature the same format of a UI component from Finsemble-seed's [UIComponents.json](https://github.com/ChartIQ/finsemble-seed/blob/master/configs/application/UIComponents.json) 
+
 
 **Locally it runs on port 3030**
 ### Install the server
