@@ -31,6 +31,41 @@ app.get('/v1/tags', require('./controllers/v1/TagsController'))
 */
 app.post('/v1/apps/search', require('./controllers/v1/SearchController'))
 /**
+ * Endpoint to deliver hardcoded json of a component
+ */
+app.get('/v1/component', (req, res) => {
+    res.status(200).send({
+        window: {
+            url: "https://www.chartiq.com/tutorials/?slug=finsemble",
+            height: 800,
+            width: 1000
+        },
+        component: {
+            spawnOnStartup: false
+        },
+        foreign: {
+            services: {
+                workspaceService: {
+                    persistURL: true
+                }
+            },
+            components: {
+                "App Launcher": {
+                    launchableByUser: false
+                },
+                "Window Manager": {
+                    showLinker: false,
+                    FSBLHeader: true,
+                    persistWindowState: true,
+                    title: "Finsemble Getting Started Tutorial"
+                }
+            }
+        }
+    });
+})
+
+
+/**
  * Start listening on port 8090
  */
 const port = process.argv[2] || 3030

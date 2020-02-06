@@ -5,8 +5,8 @@
         "entitled": true,
         "description": "This is the component that welcomes you to Finsemble. It also links you to the documentation. We encourage all users to read our documentation.",
         "appId": "welcome-comp",
-        "manifest": "This is part of the FDC3 standard but we don't know what this value will be.",
-        "manifestType": "This is part of the FDC3 standard but we don't know what this value will be.",
+        "manifest": "{\"window\":{\"url\":\"http://localhost:3375/components/welcome/welcome.html\",\"affinity\":\"workspaceComponents\",\"frame\":false,\"resizable\":true,\"autoShow\":true,\"top\":\"center\",\"left\":\"center\",\"width\":400,\"height\":432},\"component\":{\"displayName\":\"Welcome Component\",\"spawnOnStartup\":false,\"preload\":\"http://localhost:3375/preloads/zoom.js\"},\"foreign\":{\"services\":{\"windowService\":{\"allowSnapping\":true,\"canGroup\":true,\"allowAutoArrange\":true,\"allowMinimize\":true}},\"components\":{\"App Launcher\":{\"launchableByUser\":true},\"Window Manager\":{\"showLinker\":true,\"FSBLHeader\":true,\"persistWindowState\":true,\"title\":\"Welcome to Finsemble\"},\"Toolbar\":{\"iconClass\":\"ff-component\"}}}}",
+        "manifestType": "Finsemble",
         "version": "3.0.1",
         "releaseNotes": "This is the only version of the Welcome Component.",
         "tooltip": "Welcome component",
@@ -31,7 +31,7 @@
             }
         ],
         "friendlyName": "Welcome Component",
-        "url": "$applicationRoot/components/welcome/welcome.html"
+        "url": "http://localhost:3375/components/welcome/welcome.html"
     },
     {
         "name": "Notepad",
@@ -40,8 +40,8 @@
         "windowType": "NativeWindow",
         "description": "The same old Notepad you've always known, only integrated into Finsemble.",
         "appId": "note",
-        "manifest": "This is part of the FDC3 standard but we don't know what this value will be.",
-        "manifestType": "This is part of the FDC3 standard but we don't know what this value will be.",
+        "manifest": "{\"window\":{\"windowType\":\"assimilation\",\"path\":\"notepad.exe\",\"defaultHeight\":600,\"autoShow\":true,\"resizable\":true,\"showTaskbarIcon\":false,\"contextMenu\":true,\"addToWorkspace\":true,\"options\":{\"alwaysOnTop\":false}},\"component\":{\"spawnOnHotkey\":[\"ctrl\",\"alt\",\"n\"]},\"foreign\":{\"services\":{\"windowService\":{\"allowAutoArrange\":true}},\"components\":{\"App Launcher\":{\"launchableByUser\":true},\"Window Manager\":{\"persistWindowState\":false,\"FSBLHeader\":true},\"Toolbar\":{\"iconURL\":\"http://localhost:3375/assets/img/notepad.png\"}}}}",
+        "manifestType": "Finsemble",
         "version": "12",
         "releaseNotes": "Notepad does not undergo updates.",
         "title": "Notepad",
@@ -79,11 +79,11 @@
         "entitled": true,
         "description": "This component is used as a diagnostic tool akin to a Task Manager. Use it to assess the memory load of Finsemble or terminate processes.",
         "appId": "pm",
-        "manifest": "This is part of the FDC3 standard but we don't know what this value will be.",
-        "manifestType": "This is part of the FDC3 standard but we don't know what this value will be.",
+        "manifest": "{\"window\":{\"url\":\"http://localhost:3375/components/processMonitor/processMonitor.html\",\"affinity\":\"workspaceComponents\",\"width\":600,\"height\":700},\"component\":{\"category\":\"system\"},\"foreign\":{\"services\":{\"windowService\":{\"allowAutoArrange\":true}},\"components\":{\"App Launcher\":{\"launchableByUser\":true},\"Window Manager\":{\"FSBLHeader\":true,\"persistWindowState\":true,\"title\":\"Process Monitor\"}}}}",
+        "manifestType": "Finsemble",
         "title": "Process Monitor",
         "tooltip": "Process Monitor",
-        "url": "$applicationRoot/components/processMonitor/processMonitor.html",
+        "url": "http://localhost:3375/components/processMonitor/processMonitor.html",
         "images": [
             {
                 "url": "https://i.imgur.com/KOOC7oI.png",
@@ -116,8 +116,8 @@
         "entitled": true,
         "description": "This is an example app with no particular purpose.",
         "appId": "nmua",
-        "manifest": "This is part of the FDC3 standard but we don't know what this value will be.",
-        "manifestType": "This is part of the FDC3 standard but we don't know what this value will be.",
+        "manifest": "http://localhost:3030/v1/component",
+        "manifestType": "Finsemble",
         "title": "Sample Component",
         "tooltip": "Tooltip",
         "images": [
@@ -145,7 +145,7 @@
         ],
         "contactEmail": "info@chartiq.com",
         "supportEmail": "finsemble@chartiq.com",
-        "publisher": "MadeUpInc.",
+        "publisher": "ChartIQ",
         "icons": [
             {
                 "url": "https://i.imgur.com/aTxEQep.png",
