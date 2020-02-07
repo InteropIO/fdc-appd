@@ -153,5 +153,73 @@
             }
         ],
         "friendlyName": "Sample"
+    },
+    {
+        "name": "Component With Bad Manifest",
+        "type": "component",
+        "entitled": true,
+        "description": "This is the component that welcomes you to Finsemble. It also links you to the documentation. We encourage all users to read our documentation.",
+        "appId": "broke-bad-manifest",
+        "manifest": "Manifest",
+        "manifestType": "Finsemble",
+        "version": "3.0.1",
+        "releaseNotes": "This is the only version of the Welcome Component.",
+        "tooltip": "Welcome component",
+        "images": [
+            {
+                "url": "https://i.imgur.com/7T4Zeqi.png",
+                "tooltip": "Welcome Component"
+            }
+        ],
+        "tags": [
+            "Welcome",
+            "App",
+            "Documentation"
+        ],
+        "contactEmail": "info@chartiq.com",
+        "supportEmail": "finsemble@chartiq.com",
+        "publisher": "ChartIQ",
+        "icons": [
+            {
+                "url": "https://i.imgur.com/DCljkMy.png",
+                "type": "primary"
+            }
+        ],
+        "friendlyName": "Broken Component",
+        "url": "http://localhost:3375/components/welcome/welcome.html"
+    },
+    {
+        "name": "Component With Wrong Type",
+        "type": "component",
+        "entitled": true,
+        "description": "This is the component that welcomes you to Finsemble. It also links you to the documentation. We encourage all users to read our documentation.",
+        "appId": "broked",
+        "manifest": "http://localhost:3030/v1/component",
+        "manifestType": "Glue42",
+        "version": "3.0.1",
+        "releaseNotes": "This is the only version of the Welcome Component.",
+        "tooltip": "Welcome component",
+        "images": [
+            {
+                "url": "https://i.imgur.com/7T4Zeqi.png",
+                "tooltip": "Welcome Component"
+            }
+        ],
+        "tags": [
+            "Welcome",
+            "App",
+            "Documentation"
+        ],
+        "contactEmail": "info@chartiq.com",
+        "supportEmail": "finsemble@chartiq.com",
+        "publisher": "ChartIQ",
+        "icons": [
+            {
+                "url": "https://i.imgur.com/DCljkMy.png",
+                "type": "primary"
+            }
+        ],
+        "friendlyName": "Broken Component",
+        "url": "http://localhost:3375/components/welcome/welcome.html"
     }
 ]
