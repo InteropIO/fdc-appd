@@ -30,7 +30,6 @@
                 "type": "primary"
             }
         ],
-        "friendlyName": "Welcome Component",
         "url": "http://localhost:3375/components/welcome/welcome.html"
     },
     {
@@ -70,8 +69,7 @@
                 "url": "https://i.imgur.com/REWQ5k6.png",
                 "type": "primary"
             }
-        ],
-        "friendlyName": "Notepad"
+        ]
     },
     {
         "name": "Process Monitor",
@@ -151,7 +149,6 @@
                 "url": "https://i.imgur.com/aTxEQep.png",
                 "type": "primary"
             }
-        ],
-        "friendlyName": "Sample"
+        ]
     }
 ]
