@@ -116,7 +116,7 @@
         "entitled": true,
         "description": "This is an example app with no particular purpose.",
         "appId": "nmua",
-        "manifest": "http://localhost:3030/v1/component",
+        "manifest": "{\"window\":{\"url\":\"https://www.chartiq.com/tutorials/?slug=finsemble\",\"height\":800,\"width\":1000},\"component\":{\"spawnOnStartup\":false},\"foreign\":{\"services\":{\"workspaceService\":{\"persistURL\":true}},\"components\":{\"App Launcher\":{\"launchableByUser\":false},\"Window Manager\":{\"showLinker\":false,\"FSBLHeader\":true,\"persistWindowState\":true,\"title\":\"Finsemble Getting Started Tutorial\"}}}}",
         "manifestType": "Finsemble",
         "title": "Sample Component",
         "tooltip": "Tooltip",
